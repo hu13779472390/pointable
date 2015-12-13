@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PointableObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <description>Spotify</description>
+  <type>Application</type>
+  <iconPath>spotify_icon.png</iconPath>
+  <iconFromResource>false</iconFromResource>
+  <position>
+    <X>125.72171065483738</X>
+    <Y>542.73961824023206</Y>
+    <Z>-173.41369182927866</Z>
+    <Magnitude>583.47626365722158</Magnitude>
+  </position>
+  <windowTitle>Spotify</windowTitle>
+  <windowClass>SpotifyMainWindow</windowClass>
+  <calibrated>true</calibrated>
+  <locked>false</locked>
+  <isEnabled>true</isEnabled>
+  <actions>
+    <Action>
+      <description>Spotify Go Back</description>
+      <iconPath>go_previous.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>Alt</string>
+        <string>Left</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>EiUAAA==</keys>
+      <keysKeyCode>
+        <string>18</string>
+        <string>37</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Spotify Next Track</description>
+      <iconPath>media_next.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LeftCtrl</string>
+        <string>Right</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>oicAAA==</keys>
+      <keysKeyCode>
+        <string>162</string>
+        <string>39</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Spotify Go Forward</description>
+      <iconPath>go_next.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>Alt</string>
+        <string>Right</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>EicAAA==</keys>
+      <keysKeyCode>
+        <string>18</string>
+        <string>39</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Spotify Previous Track</description>
+      <iconPath>media_previous.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LeftCtrl</string>
+        <string>Left</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>oiUAAA==</keys>
+      <keysKeyCode>
+        <string>162</string>
+        <string>37</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+  </actions>
+</PointableObject>

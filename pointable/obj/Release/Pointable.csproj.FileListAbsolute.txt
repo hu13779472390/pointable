@@ -1,0 +1,147 @@
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\bin\Release\Pointable.exe
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\bin\Release\Pointable.pdb
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\bin\Release\CoreAudioApi.dll
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\bin\Release\IconLib.dll
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\bin\Release\LeapCSharp.NET3.5.dll
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\ResolveAssemblyReference.cache
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\MainWindow.baml
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\WindowApplicationEdit.baml
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\WindowNewKeystrokes.baml
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\WindowPointableEditor.baml
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\MainWindow.g.cs
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\WindowApplicationEdit.g.cs
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\WindowNewKeystrokes.g.cs
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\WindowPointableEditor.g.cs
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\Pointable_Content.g.cs
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\Pointable_MarkupCompile.cache
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\Pointable.g.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\LeapProject.Form1.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\LeapProject.FormCalibrate.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\LeapProject.FormControl.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\LeapProject.FormControlGroup.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\Pointable.Properties.Resources.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\Pointable.csproj.GenerateResource.Cache
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\Pointable.exe
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Release\Pointable.pdb
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\Pointable.exe
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\Pointable.pdb
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\bin\Release\Pointable.exe
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\bin\Release\Pointable.pdb
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\bin\Release\CoreAudioApi.dll
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\bin\Release\IconLib.dll
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\bin\Release\LeapCSharp.NET3.5.dll
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\ResolveAssemblyReference.cache
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\MainWindow.baml
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\WindowApplicationEdit.baml
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\WindowNewKeystrokes.baml
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\WindowPointableEditor.baml
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\MainWindow.g.cs
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\WindowApplicationEdit.g.cs
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\WindowNewKeystrokes.g.cs
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\WindowPointableEditor.g.cs
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\Pointable_Content.g.cs
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\Pointable_MarkupCompile.cache
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\Pointable.g.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\LeapProject.Form1.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\LeapProject.FormCalibrate.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\LeapProject.FormControl.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\LeapProject.FormControlGroup.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\Pointable.Properties.Resources.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\Pointable.csproj.GenerateResource.Cache
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\LeapProject.FormDraw.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\LeapProject.FormFindWindow.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008 - Experiment Desktop\LeapProject\obj\Release\LeapProject.FormSplash.resources
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\Pointable.exe
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\Pointable.pdb
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\bin\Release\Pointable.exe
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\bin\Release\Pointable.pdb
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\bin\Release\CoreAudioApi.dll
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\bin\Release\IconLib.dll
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\bin\Release\LeapCSharp.NET3.5.dll
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\ResolveAssemblyReference.cache
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\MainWindow.baml
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\WindowApplicationEdit.baml
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\WindowNewKeystrokes.baml
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\WindowPointableEditor.baml
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\MainWindow.g.cs
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\WindowApplicationEdit.g.cs
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\WindowNewKeystrokes.g.cs
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\WindowPointableEditor.g.cs
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\Pointable_Content.g.cs
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\Pointable_MarkupCompile.cache
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\Pointable.g.resources
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\LeapProject.Form1.resources
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\LeapProject.FormCalibrate.resources
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\LeapProject.FormControl.resources
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\LeapProject.FormControlGroup.resources
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\Pointable.Properties.Resources.resources
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\LeapProject.FormSplash.resources
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\LeapProject.FormFindWindow.resources
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\LeapProject.FormDraw.resources
+C:\Documents\# Smart Home\LeapProject - 24\LeapProject\obj\Release\Pointable.csproj.GenerateResource.Cache
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\bin\Release\Pointable.exe
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\bin\Release\Pointable.pdb
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\bin\Release\CoreAudioApi.dll
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\bin\Release\IconLib.dll
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\bin\Release\LeapCSharp.NET3.5.dll
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\ResolveAssemblyReference.cache
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\MainWindow.baml
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\WindowApplicationEdit.baml
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\WindowNewKeystrokes.baml
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\WindowPointableEditor.baml
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\MainWindow.g.cs
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\WindowApplicationEdit.g.cs
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\WindowNewKeystrokes.g.cs
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\WindowPointableEditor.g.cs
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\Pointable_Content.g.cs
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\Pointable_MarkupCompile.cache
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\Pointable.g.resources
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\LeapProject.Form1.resources
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\LeapProject.FormCalibrate.resources
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\LeapProject.FormControl.resources
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\LeapProject.FormControlGroup.resources
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\Pointable.Properties.Resources.resources
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\LeapProject.FormSplash.resources
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\LeapProject.FormFindWindow.resources
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\LeapProject.FormDraw.resources
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\Pointable.csproj.GenerateResource.Cache
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\Pointable.exe
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\Pointable.pdb
+C:\Documents\# Smart Home\LeapProject - 24 - new\LeapProject\obj\Release\LeapProject.FormCalibrateScreen.resources
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\bin\Release\Pointable.exe
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\bin\Release\Pointable.pdb
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\bin\Release\CoreAudioApi.dll
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\bin\Release\IconLib.dll
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\bin\Release\LeapCSharp.NET3.5.dll
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\ResolveAssemblyReference.cache
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\MainWindow.baml
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\WindowApplicationEdit.baml
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\WindowNewKeystrokes.baml
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\WindowPointableEditor.baml
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\MainWindow.g.cs
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\WindowApplicationEdit.g.cs
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\WindowNewKeystrokes.g.cs
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\WindowPointableEditor.g.cs
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\Pointable_Content.g.cs
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\Pointable_MarkupCompile.cache
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\Pointable.g.resources
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\LeapProject.Form1.resources
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\LeapProject.FormCalibrate.resources
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\LeapProject.FormControl.resources
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\LeapProject.FormControlGroup.resources
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\Pointable.Properties.Resources.resources
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\Pointable.FormShutdown.resources
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\Pointable.FormConfiguration.resources
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\Pointable.FormFullScreen.resources
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\Pointable.FormTutorialDrag.resources
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\LeapProject.FormTutorial.resources
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\LeapProject.FormCalibrateScreenInfo.resources
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\LeapProject.FormCalibrateScreen.resources
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\LeapProject.FormSplash.resources
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\LeapProject.FormFindWindow.resources
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\LeapProject.FormDraw.resources
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\Pointable.csproj.GenerateResource.Cache
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\Pointable.exe
+C:\Users\ChengYong\Desktop\PointableCodeToGH\LeapProject - 60 - new - 31 - for achive Pointable Lab\pointable\obj\Release\Pointable.pdb
+C:\Users\ChengYong\Desktop\PointableCodeToGH\pointable\pointable\obj\Release\Pointable.exe
+C:\Users\ChengYong\Desktop\PointableCodeToGH\pointable\pointable\obj\Release\Pointable.pdb

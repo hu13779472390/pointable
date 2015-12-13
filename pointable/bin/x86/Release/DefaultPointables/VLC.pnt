@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PointableObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <description>VLC</description>
+  <type>Application</type>
+  <iconPath>icon_vlc.exe.png</iconPath>
+  <iconFromResource>false</iconFromResource>
+  <position>
+    <X>1</X>
+    <Y>1</Y>
+    <Z>1</Z>
+    <Magnitude>1.7320508075688772</Magnitude>
+  </position>
+  <windowTitle>VLC media player</windowTitle>
+  <windowClass>QWidget</windowClass>
+  <calibrated>false</calibrated>
+  <locked>false</locked>
+  <isEnabled>true</isEnabled>
+  <actions>
+    <Action>
+      <description>Full Screen</description>
+      <iconPath>fullscreen.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>F</string>
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>RgAAAA==</keys>
+      <keysKeyCode>
+        <string>70</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Next Track</description>
+      <iconPath>media_next.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>MediaNextTrack</string>
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>sAAAAA==</keys>
+      <keysKeyCode>
+        <string>176</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Pause/Play</description>
+      <iconPath>media_pause.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>Space</string>
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>IAAAAA==</keys>
+      <keysKeyCode>
+        <string>32</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Previous Track</description>
+      <iconPath>media_previous.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>MediaPreviousTrack</string>
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>sQAAAA==</keys>
+      <keysKeyCode>
+        <string>177</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+  </actions>
+</PointableObject>

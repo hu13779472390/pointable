@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PointableObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <description>Browser Video</description>
+  <type>Application</type>
+  <iconPath>keystroke_my_computer.png</iconPath>
+  <iconFromResource>false</iconFromResource>
+  <position>
+    <X>-93.594493914997088</X>
+    <Y>490.09285094937621</Y>
+    <Z>-166.35534203060362</Z>
+    <Magnitude>525.95154878088442</Magnitude>
+  </position>
+  <windowTitle>Google Chrome</windowTitle>
+  <windowClass>Not Attached</windowClass>
+  <calibrated>false</calibrated>
+  <locked>true</locked>
+  <isEnabled>true</isEnabled>
+  <actions>
+    <Action>
+      <description>New Keystroke</description>
+      <iconPath>fullscreen.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>F</string>
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>RgAAAA==</keys>
+      <keysKeyCode>
+        <string>70</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Browser Next Tab</description>
+      <iconPath>tab_next.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LeftCtrl</string>
+        <string>Next</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>oiIAAA==</keys>
+      <keysKeyCode>
+        <string>162</string>
+        <string>34</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Browser Close Tab</description>
+      <iconPath>tab_close.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LeftCtrl</string>
+        <string>W</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>olcAAA==</keys>
+      <keysKeyCode>
+        <string>162</string>
+        <string>87</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Browser Back</description>
+      <iconPath>go_previous.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>Back</string>
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>CAAAAA==</keys>
+      <keysKeyCode>
+        <string>8</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+  </actions>
+</PointableObject>

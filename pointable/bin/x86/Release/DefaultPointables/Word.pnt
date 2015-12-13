@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PointableObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <description>Word</description>
+  <type>Application</type>
+  <iconPath>office_word.png</iconPath>
+  <iconFromResource>false</iconFromResource>
+  <position>
+    <X>1</X>
+    <Y>1</Y>
+    <Z>1</Z>
+    <Magnitude>1.7320508075688772</Magnitude>
+  </position>
+  <windowTitle>Document1 - Microsoft Word</windowTitle>
+  <windowClass>OpusApp</windowClass>
+  <calibrated>false</calibrated>
+  <locked>false</locked>
+  <isEnabled>true</isEnabled>
+  <actions>
+    <Action>
+      <description>Office Open Recent</description>
+      <iconPath>document_recent.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>Alt</string>
+        <string>F</string>
+        <string>R</string>
+        <string />
+      </keyDescription>
+      <keys>EkZSAA==</keys>
+      <keysKeyCode>
+        <string>18</string>
+        <string>70</string>
+        <string>82</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Office View Side By Side</description>
+      <iconPath>side_by_side.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>Alt</string>
+        <string>W</string>
+        <string>B</string>
+        <string />
+      </keyDescription>
+      <keys>EldCAA==</keys>
+      <keysKeyCode>
+        <string>18</string>
+        <string>87</string>
+        <string>66</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Office Exit</description>
+      <iconPath>application_close.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LeftCtrl</string>
+        <string>W</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>olcAAA==</keys>
+      <keysKeyCode>
+        <string>162</string>
+        <string>87</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Office Word Synchronous Scrolling</description>
+      <iconPath>side_by_side_scroll.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>Alt</string>
+        <string>W</string>
+        <string>V</string>
+        <string>S</string>
+      </keyDescription>
+      <keys>EldWUw==</keys>
+      <keysKeyCode>
+        <string>18</string>
+        <string>87</string>
+        <string>86</string>
+        <string>83</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+  </actions>
+</PointableObject>

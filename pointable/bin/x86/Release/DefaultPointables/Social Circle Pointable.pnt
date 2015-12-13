@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PointableObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <description>Social Circle Pointable</description>
+  <type>Physical</type>
+  <iconPath>pointable_generic.png</iconPath>
+  <iconFromResource>false</iconFromResource>
+  <position>
+    <X>0</X>
+    <Y>400</Y>
+    <Z>-250</Z>
+    <Magnitude>615.18111828128974</Magnitude>
+  </position>
+  <windowTitle />
+  <windowClass />
+  <calibrated>true</calibrated>
+  <locked>false</locked>
+  <isEnabled>true</isEnabled>
+  <actions>
+    <Action>
+      <description>Email to The Pointable Guys</description>
+      <iconPath>social_gmail.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>LaunchApplication</actionType>
+      <keyDescription>
+        <string />
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>AAAAAA==</keys>
+      <keysKeyCode>
+        <string />
+        <string />
+        <string />
+        <string />
+      </keysKeyCode>
+      <applicationPath>http://mail.google.com</applicationPath>
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Check out The Pointable Guys Facebook</description>
+      <iconPath>social_facebook.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>LaunchApplication</actionType>
+      <keyDescription>
+        <string />
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>AAAAAA==</keys>
+      <keysKeyCode>
+        <string />
+        <string />
+        <string />
+        <string />
+      </keysKeyCode>
+      <applicationPath>https://www.facebook.com/</applicationPath>
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Skype Test Call Example</description>
+      <iconPath>social_skype.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>LaunchApplication</actionType>
+      <keyDescription>
+        <string />
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>AAAAAA==</keys>
+      <keysKeyCode>
+        <string />
+        <string />
+        <string />
+        <string />
+      </keysKeyCode>
+      <applicationPath>skype:echo123?call</applicationPath>
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Tweet to The Pointable Guys</description>
+      <iconPath>social_twitter.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>LaunchApplication</actionType>
+      <keyDescription>
+        <string />
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>AAAAAA==</keys>
+      <keysKeyCode>
+        <string />
+        <string />
+        <string />
+        <string />
+      </keysKeyCode>
+      <applicationPath>http://twitter.com/</applicationPath>
+      <applicationArgs />
+    </Action>
+  </actions>
+</PointableObject>

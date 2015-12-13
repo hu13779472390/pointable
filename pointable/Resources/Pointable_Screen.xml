@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PointableObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <description>Configuration</description>
+  <type>Physical</type>
+  <iconPath>screen.png</iconPath>
+  <iconFromResource>true</iconFromResource>
+  <position>
+    <X>0</X>
+    <Y>0</Y>
+    <Z>-250</Z>
+    <Magnitude>224.47711734924513</Magnitude>
+  </position>
+  <windowTitle />
+  <windowClass />
+  <calibrated>true</calibrated>
+  <locked>true</locked>
+  <isEnabled>true</isEnabled>
+  <actions>
+    <Action>
+      <description>Resume/Pause Tracking</description>
+      <iconPath>screen_pointable_pause_tracking.png</iconPath>
+      <iconFromResource>true</iconFromResource>
+      <actionType>LaunchApplication</actionType>
+      <keyDescription>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </keyDescription>
+      <keys>AAAAAA==</keys>
+      <keysKeyCode>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath>pointable-pauseresume</applicationPath>
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Open Pointable Configuration</description>
+      <iconPath>screen_settings.png</iconPath>
+      <iconFromResource>true</iconFromResource>
+      <actionType>LaunchApplication</actionType>
+      <keyDescription>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </keyDescription>
+      <keys>AAAAAA==</keys>
+      <keysKeyCode>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath>pointable-configuration</applicationPath>
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Pointable Guide</description>
+      <iconPath>screen_pointable_guide.png</iconPath>
+      <iconFromResource>true</iconFromResource>
+      <actionType>LaunchApplication</actionType>
+      <keyDescription>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </keyDescription>
+      <keys>AAAAAA==</keys>
+      <keysKeyCode>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath>http://www.pointable.net/getstartedpointable</applicationPath>
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Launch Airspace</description>
+      <iconPath>screen_airspace.png</iconPath>
+      <iconFromResource>true</iconFromResource>
+      <actionType>LaunchApplication</actionType>
+      <keyDescription>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </keyDescription>
+      <keys>AAAAAA==</keys>
+      <keysKeyCode>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath>%ProgramFiles(x86)%\Leap Motion\Airspace\Airspace.exe</applicationPath>
+      <applicationArgs />
+    </Action>
+  </actions>
+</PointableObject>

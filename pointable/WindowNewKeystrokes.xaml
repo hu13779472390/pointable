@@ -1,0 +1,29 @@
+﻿<Window x:Class="PointableUI.WindowNewKeystrokes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="New Keystrokes" Height="346" Width="465" Icon="/Pointable;component/Resources/pointable.ico" Topmost="True">
+    <Grid Height="308" VerticalAlignment="Stretch">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="174.439*" />
+            <ColumnDefinition Width="94.167*" />
+            <ColumnDefinition Width="174*" />
+        </Grid.ColumnDefinitions>
+        <Label Content="Key 1" Margin="59,144,77,136" Name="label2" />
+        <TextBox Height="25" Margin="34,0,52,112" Name="textBoxKey1" VerticalAlignment="Bottom" KeyDown="textBoxKey1_KeyDown" KeyUp="textBoxKey1_KeyUp" IsUndoEnabled="False" />
+        <Label Content="Key 2" HorizontalAlignment="Right" Margin="0,144,74,136" Name="label4" Grid.ColumnSpan="2" Width="38.8" />
+        <TextBox Height="25" Margin="131,0,0,112" Name="textBoxKey2" VerticalAlignment="Bottom" KeyDown="textBoxKey2_KeyDown" KeyUp="textBoxKey2_KeyUp" Grid.ColumnSpan="2" HorizontalAlignment="Left" Width="88" IsUndoEnabled="False" />
+        <Label Content="Key 3"  Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="75,144,0,136" Name="label5" Grid.Column="1" Width="38.8" />
+        <TextBox Grid.Column="1" Grid.ColumnSpan="2" Height="25" Margin="50,0,130,112" Name="textBoxKey3" VerticalAlignment="Bottom" KeyDown="textBoxKey3_KeyDown" KeyUp="textBoxKey3_KeyUp" IsUndoEnabled="False" />
+        <Label Content="Key 4" Margin="75,144,60,136" Name="label6" Grid.Column="2" />
+        <TextBox Grid.Column="2" Height="25" Margin="50,0,36,112" Name="textBoxKey4" VerticalAlignment="Bottom" KeyUp="textBoxKey4_KeyUp" KeyDown="textBoxKey4_KeyDown" IsUndoEnabled="False" />
+        <Button Content="Clear" Height="25" Margin="0,0,2.49,77" Name="buttonClear" VerticalAlignment="Bottom" Click="buttonClear_Click" Grid.Column="1" />
+        <Button Content="OK" Height="25" Margin="119,263,58.845,0" Name="buttonOK" VerticalAlignment="Top" Click="buttonOK_Click" Grid.ColumnSpan="2" />
+        <Button Content="Cancel" Grid.Column="1" Grid.ColumnSpan="2" Height="25" Margin="61.845,263,115.561,0" Name="buttonCancel" VerticalAlignment="Top" Click="buttonCancel_Click" />
+        <Button Content="Load Icon" Grid.ColumnSpan="2" Height="25" HorizontalAlignment="Right" Margin="0,86,17.845,0" Name="buttonBrowse" VerticalAlignment="Top" Width="91" Click="buttonBrowse_Click" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="128" Margin="10,10,36.594,0" Name="border1" VerticalAlignment="Top" Background="Gray"></Border>
+        <Image Height="128" Margin="10,10,36.594,0" Name="imageIcon" Stretch="UniformToFill" VerticalAlignment="Top" />
+        <TextBox Grid.ColumnSpan="3" Height="25" Margin="160,53,15,0" Name="textBoxDescription" VerticalAlignment="Top" />
+        <Label Content="Description" Grid.ColumnSpan="2" Height="28" HorizontalAlignment="Right" Margin="0,27,42.547,0" Name="label1" VerticalAlignment="Top" Width="70.253" />
+        <Label Height="28" Margin="24,0,25,49" Name="label3" VerticalAlignment="Bottom" Grid.ColumnSpan="3" HorizontalContentAlignment="Center">Please refer to the guide for the known non-usable key combinations</Label>
+    </Grid>
+</Window>

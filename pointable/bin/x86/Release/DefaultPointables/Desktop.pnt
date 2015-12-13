@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PointableObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <description>Desktop</description>
+  <type>Application</type>
+  <iconPath>desktop.png</iconPath>
+  <iconFromResource>false</iconFromResource>
+  <position>
+    <X>1</X>
+    <Y>1</Y>
+    <Z>1</Z>
+    <Magnitude>1.7320508075688772</Magnitude>
+  </position>
+  <windowTitle>Program Manager</windowTitle>
+  <windowClass>Progman</windowClass>
+  <calibrated>false</calibrated>
+  <locked>true</locked>
+  <isEnabled>true</isEnabled>
+  <actions>
+    <Action>
+      <description>Screen Calibration</description>
+      <iconPath>screen_calibration.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>LaunchApplication</actionType>
+      <keyDescription>
+        <string />
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>AAAAAA==</keys>
+      <keysKeyCode>
+        <string />
+        <string />
+        <string />
+        <string />
+      </keysKeyCode>
+      <applicationPath>pointable-screencalibration</applicationPath>
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Show Charm Bar</description>
+      <iconPath>charm_bar.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LWin</string>
+        <string>C</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>W0MAAA==</keys>
+      <keysKeyCode>
+        <string>91</string>
+        <string>67</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Go To Start Screen</description>
+      <iconPath>start_screen.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>RWin</string>
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>XAAAAA==</keys>
+      <keysKeyCode>
+        <string>92</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Open Apps</description>
+      <iconPath>open_apps.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LWin</string>
+        <string>LeftCtrl</string>
+        <string>Tab</string>
+        <string />
+      </keyDescription>
+      <keys>W6IJAA==</keys>
+      <keysKeyCode>
+        <string>91</string>
+        <string>162</string>
+        <string>9</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+  </actions>
+</PointableObject>

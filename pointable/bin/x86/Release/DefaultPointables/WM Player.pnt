@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PointableObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <description>WM Player</description>
+  <type>Application</type>
+  <iconPath>icon_wmplayer.exe.png</iconPath>
+  <iconFromResource>false</iconFromResource>
+  <position>
+    <X>1</X>
+    <Y>1</Y>
+    <Z>1</Z>
+    <Magnitude>1.7320508075688772</Magnitude>
+  </position>
+  <windowTitle>Windows Media Player</windowTitle>
+  <windowClass>WMP Skin Host</windowClass>
+  <calibrated>false</calibrated>
+  <locked>false</locked>
+  <isEnabled>true</isEnabled>
+  <actions>
+    <Action>
+      <description>WM Player Full Screen</description>
+      <iconPath>fullscreen.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>Alt</string>
+        <string>Return</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>Eg0AAA==</keys>
+      <keysKeyCode>
+        <string>18</string>
+        <string>13</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Next</description>
+      <iconPath>media_next.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LeftCtrl</string>
+        <string>F</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>okYAAA==</keys>
+      <keysKeyCode>
+        <string>162</string>
+        <string>70</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>WM Player Pause/Play</description>
+      <iconPath>media_pause.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LeftCtrl</string>
+        <string>P</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>olAAAA==</keys>
+      <keysKeyCode>
+        <string>162</string>
+        <string>80</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Previous</description>
+      <iconPath>media_previous.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LeftCtrl</string>
+        <string>B</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>okIAAA==</keys>
+      <keysKeyCode>
+        <string>162</string>
+        <string>66</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+  </actions>
+</PointableObject>

@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AE78557D-7077-4342-8D4C-A07C1042FD36}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pointable</RootNamespace>
+    <AssemblyName>Pointable</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>pointable.ico</ApplicationIcon>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SignManifests>false</SignManifests>
+    <ManifestCertificateThumbprint>C932506E4BCFD6A9141E67C5D141CD3751B4CAAE</ManifestCertificateThumbprint>
+    <ManifestTimestampUrl>http://timestamp.comodoca.com/authenticode</ManifestTimestampUrl>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CoreAudioApi, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\CoreAudioApi.dll</HintPath>
+    </Reference>
+    <Reference Include="IconLib, Version=0.73.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\IconLib.dll</HintPath>
+    </Reference>
+    <Reference Include="LeapCSharp.NET3.5, Version=0.0.0.0, Culture=neutral, PublicKeyToken=6e1b1368e71eba9b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\LeapCSharp.NET3.5.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormShutdown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShutdown.Designer.cs">
+      <DependentUpon>FormShutdown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfiguration.Designer.cs">
+      <DependentUpon>FormConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFullScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFullScreen.Designer.cs">
+      <DependentUpon>FormFullScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTutorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTutorial.Designer.cs">
+      <DependentUpon>FormTutorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalibrateScreenInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalibrateScreenInfo.Designer.cs">
+      <DependentUpon>FormCalibrateScreenInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalibrateScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalibrateScreen.Designer.cs">
+      <DependentUpon>FormCalibrateScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalibrate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalibrate.Designer.cs">
+      <DependentUpon>FormCalibrate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormControl.designer.cs">
+      <DependentUpon>FormControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControlGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormControlGroup.designer.cs">
+      <DependentUpon>FormControlGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDraw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDraw.Designer.cs">
+      <DependentUpon>FormDraw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSplash.designer.cs">
+      <DependentUpon>FormSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTutorialDrag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTutorialDrag.Designer.cs">
+      <DependentUpon>FormTutorialDrag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GdiApiWrapper.cs" />
+    <Compile Include="globalKeyboardHook.cs" />
+    <Compile Include="LeapEventListener.cs" />
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFindWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PerPixelAlphaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pointables.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalibrate.resx">
+      <DependentUpon>FormCalibrate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControl.resx">
+      <DependentUpon>FormControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControlGroup.resx">
+      <DependentUpon>FormControlGroup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="LeapListener.cs" />
+    <Compile Include="Tools.cs" />
+    <Compile Include="Vector3.cs" />
+    <Compile Include="WinApiWrapper.cs" />
+    <Compile Include="WindowApplicationEdit.xaml.cs">
+      <DependentUpon>WindowApplicationEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowNewKeystrokes.xaml.cs">
+      <DependentUpon>WindowNewKeystrokes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowPointableEditor.xaml.cs">
+      <DependentUpon>WindowPointableEditor.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WindowApplicationEdit.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WindowNewKeystrokes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WindowPointableEditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pointable.ico" />
+    <EmbeddedResource Include="FormShutdown.resx">
+      <DependentUpon>FormShutdown.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConfiguration.resx">
+      <DependentUpon>FormConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFullScreen.resx">
+      <DependentUpon>FormFullScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTutorialDrag.resx">
+      <DependentUpon>FormTutorialDrag.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Pointable_TutorialAudio.xml" />
+    <EmbeddedResource Include="Resources\go_next.png" />
+    <EmbeddedResource Include="Resources\go_previous.png" />
+    <EmbeddedResource Include="Resources\media_music.png" />
+    <EmbeddedResource Include="Resources\Pointable_Tutorial.pnt" />
+    <EmbeddedResource Include="Resources\Pointable_Tutorial_Last.pnt" />
+    <None Include="app2.manifest" />
+    <None Include="Copy of app.manifest" />
+    <None Include="Resources\TutorialMusic.wav" />
+    <EmbeddedResource Include="FormTutorial.resx">
+      <DependentUpon>FormTutorial.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\cursor\cursor_windows.cur" />
+    <EmbeddedResource Include="Resources\cursor\cursor_windows_point.cur" />
+    <EmbeddedResource Include="Resources\cursor\Pointable_cursor_drop_red.png" />
+    <EmbeddedResource Include="Resources\cursor\Pointable_cursor_drop_yellow.png" />
+    <EmbeddedResource Include="FormCalibrateScreenInfo.resx">
+      <DependentUpon>FormCalibrateScreenInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalibrateScreen.resx">
+      <DependentUpon>FormCalibrateScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\screen_airspace.png" />
+    <EmbeddedResource Include="Resources\screen_pointable_guide.png" />
+    <EmbeddedResource Include="Resources\screen_pointable_pause_tracking.png" />
+    <EmbeddedResource Include="Resources\cursor\findcursor.cur" />
+    <EmbeddedResource Include="Resources\cursor\Pointable_cursor_drop.png" />
+    <EmbeddedResource Include="Resources\cursor\Pointable_cursor_progress8.png" />
+    <EmbeddedResource Include="Resources\cursor\Pointable_cursor_progress1.png" />
+    <EmbeddedResource Include="Resources\cursor\Pointable_cursor_progress2.png" />
+    <EmbeddedResource Include="Resources\cursor\Pointable_cursor_progress3.png" />
+    <EmbeddedResource Include="Resources\cursor\Pointable_cursor_progress4.png" />
+    <EmbeddedResource Include="Resources\cursor\Pointable_cursor_progress5.png" />
+    <EmbeddedResource Include="Resources\cursor\Pointable_cursor_progress6.png" />
+    <EmbeddedResource Include="Resources\cursor\Pointable_cursor_progress7.png" />
+    <EmbeddedResource Include="Resources\Pointables_window_cursor_move.png" />
+    <EmbeddedResource Include="Resources\Pointables_window_cursor.png" />
+    <EmbeddedResource Include="FormSplash.resx">
+      <DependentUpon>FormSplash.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\pointable_logo_splash_screen.png" />
+    <EmbeddedResource Include="Resources\Pointable_NotActivated.ico" />
+    <EmbeddedResource Include="FormFindWindow.resx">
+      <DependentUpon>FormFindWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDraw.resx">
+      <DependentUpon>FormDraw.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\action_question.png" />
+    <EmbeddedResource Include="Resources\sound_volume_mute.png" />
+    <Resource Include="Resources\pointable3.ico" />
+    <Resource Include="Resources\Pointables_ball2.png" />
+    <EmbeddedResource Include="Resources\pointable2.ico" />
+    <EmbeddedResource Include="Resources\Pointable_Screen.xml" />
+    <EmbeddedResource Include="Resources\Pointable_Speakers.xml" />
+    <Resource Include="Resources\pointable.ico" />
+    <EmbeddedResource Include="Resources\Pointables_ball.png" />
+    <EmbeddedResource Include="Resources\Pointables_ball_edge.png" />
+    <EmbeddedResource Include="Resources\Pointables_ball_no_edge.png" />
+    <EmbeddedResource Include="Resources\Pointables_shadow.png" />
+    <EmbeddedResource Include="Resources\Pointables_spotlight.png" />
+    <EmbeddedResource Include="Resources\screen.png" />
+    <EmbeddedResource Include="Resources\screen_pointable.png" />
+    <EmbeddedResource Include="Resources\screen_settings.png" />
+    <EmbeddedResource Include="Resources\screen_show_desktop.png" />
+    <EmbeddedResource Include="Resources\screen_twitter.png" />
+    <EmbeddedResource Include="Resources\sound.png" />
+    <EmbeddedResource Include="Resources\sound_decrease.png" />
+    <EmbeddedResource Include="Resources\sound_increase.png" />
+    <EmbeddedResource Include="Resources\sound_mute.png" />
+    <EmbeddedResource Include="Resources\sound_next.png" />
+    <EmbeddedResource Include="Resources\sound_pause.png" />
+    <EmbeddedResource Include="Resources\sound_volume_blank.png" />
+    <EmbeddedResource Include="Resources\sound_volume_full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

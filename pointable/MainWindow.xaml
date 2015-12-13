@@ -1,0 +1,70 @@
+﻿<Window x:Class="PointableUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Pointable" Height="700" Width="1024" MouseUp="imageLeft_MouseUp" MinWidth="1024" MinHeight="700" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Loaded="Window_Loaded" Icon="/Pointable;component/Resources/pointable.ico" >
+    <Grid Height="603" Width="1057">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="550*" />
+            <ColumnDefinition Width="507*" />
+        </Grid.ColumnDefinitions>
+        <Image Height="670" HorizontalAlignment="Left" Margin="-58,-39,0,0" Name="imageBall" Stretch="Uniform" VerticalAlignment="Top" Width="670" Source="/Pointable;component/Resources/Pointables_ball2.png" DataContext="{Binding}" Grid.ColumnSpan="2" />
+        <Image Height="128" HorizontalAlignment="Left" Margin="210,81,0,0" Name="imageTop" Stretch="Fill" VerticalAlignment="Top" Width="128"  MouseUp="imageTop_MouseUp" Opacity="1" />
+        <Border BorderBrush="Transparent" BorderThickness="1" Height="128" HorizontalAlignment="Left" Margin="209,80,0,0" Name="borderTop" VerticalAlignment="Top" Width="128" Background="Transparent" MouseUp="imageTop_MouseUp"></Border>
+        <Image Height="128" HorizontalAlignment="Left" Margin="363,230,0,0" Name="imageRight" Stretch="Fill" VerticalAlignment="Top" Width="128"  MouseUp="imageRight_MouseUp" />
+        <Border BorderBrush="Transparent" BorderThickness="1" Height="128" HorizontalAlignment="Left" Margin="362,229,0,0" Name="borderRight" VerticalAlignment="Top" Width="128" Background="Transparent" MouseUp="imageRight_MouseUp" ></Border>
+        <Image Height="128" HorizontalAlignment="Left" Margin="210,384,0,0" Name="imageBottom" Stretch="Fill" VerticalAlignment="Top" Width="128"  MouseUp="imageBottom_MouseUp" />
+        <Border BorderBrush="Transparent" BorderThickness="1" Height="128" HorizontalAlignment="Left" Margin="209,383,0,0" Name="borderBottom" VerticalAlignment="Top" Width="128" Background="Transparent"  MouseUp="imageBottom_MouseUp"></Border>
+        <Image Height="128" HorizontalAlignment="Left" Margin="61,230,0,0" Name="imageLeft" Stretch="Fill" VerticalAlignment="Top" Width="128" MouseUp="imageLeft2_MouseUp" />
+        <Border BorderBrush="Transparent" BorderThickness="1" Height="128" HorizontalAlignment="Left" Margin="60,229,0,0" Name="borderLeft" VerticalAlignment="Top" Width="128" Background="Transparent" MouseUp="imageLeft2_MouseUp"></Border>
+        <Image Height="128" HorizontalAlignment="Left" Margin="210,230,0,0" Name="imageCenter" Stretch="Fill" VerticalAlignment="Top" Width="128"  MouseUp="imageCenter_MouseUp" />
+        <Border BorderBrush="Transparent" BorderThickness="1" Height="128" HorizontalAlignment="Left" Margin="209,229,0,0" Name="borderCenter" VerticalAlignment="Top" Width="128" Background="Transparent" MouseUp="imageCenter_MouseUp"></Border>
+        <Grid Margin="17,341,67,8" Width="423" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="188*" />
+                <ColumnDefinition Width="125*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Label Content="Action" FontFamily="Segoe" FontSize="32" Height="50" HorizontalAlignment="Left" Margin="11,0,0,0" Name="label3" VerticalAlignment="Top" Width="243" Grid.ColumnSpan="2" />
+            <TabControl Height="197" HorizontalAlignment="Left" Margin="12,52,0,0" Name="tabControlAction" VerticalAlignment="Top" Width="411" Grid.ColumnSpan="3" Background="#00000000" SelectionChanged="tabControlAction_SelectionChanged">
+                <TabItem Header="Launch Application" Name="tabItem1">
+                    <Grid>
+                        <ComboBox FontSize="12" Height="28" HorizontalAlignment="Left" Margin="0,14,0,0" Name="comboBoxApplication" VerticalAlignment="Top" Width="298" SelectionChanged="comboBoxApplication_SelectionChanged_1" />
+                        <Button Content="Add" Height="25" HorizontalAlignment="Left" Margin="305,14,0,0" Name="buttonApplicationAdd" VerticalAlignment="Top" Width="90" Click="buttonApplicationAdd_Click" />
+                        <Button Content="Edit" Height="25" HorizontalAlignment="Left" Margin="305,45,0,0" Name="buttonApplicationEdit" VerticalAlignment="Top" Width="90" Click="buttonApplicationEdit_Click" />
+                        <Button Content="Delete" Height="25" HorizontalAlignment="Left" Margin="305,76,0,0" Name="buttonApplicationDelete" VerticalAlignment="Top" Width="90" Click="buttonApplicationDelete_Click" Visibility="Hidden" />
+                        <Label Height="28" FontSize="12"  Margin="0,13.52,124,0" Name="labelActionDescription" VerticalAlignment="Top" Background="Transparent" MouseLeftButtonUp="labelDescription_Click"></Label>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Keystrokes" Name="tabItem2" IsSelected="True">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="74*" />
+                            <ColumnDefinition Width="17*" />
+                            <ColumnDefinition Width="310*" />
+                        </Grid.ColumnDefinitions>
+                        <ComboBox FontSize="12" Height="28" HorizontalAlignment="Left" Margin="0,14,0,0" Name="comboBoxKeystrokes" VerticalAlignment="Top" Width="298" SelectionChanged="comboBoxKeystrokes_SelectionChanged" Grid.ColumnSpan="3"/>
+                        <Button Click="buttonAddKeystrokes_Click" Content="Add" Height="25" HorizontalAlignment="Left" Margin="214,14,0,0" Name="buttonKeystrokesAdd" VerticalAlignment="Top" Width="90" Grid.Column="2" />
+                        <Button Content="Edit" Height="25" HorizontalAlignment="Left" Margin="214,45,0,0" Name="buttonKeystrokesEdit" VerticalAlignment="Top" Width="90" Grid.Column="2" Click="buttonKeystrokesEdit_Click" />
+                        <Button Content="Delete" Visibility="Hidden" Height="25" HorizontalAlignment="Left" Margin="214,76,0,0" Name="buttonKeystrokesDelete" VerticalAlignment="Top" Width="90" Grid.Column="2" Click="buttonKeystrokesDelete_Click" />
+                        <Label Height="28" FontSize="12"  Margin="0,13.52,124,0" Name="labelActionKeystrokeDescription" VerticalAlignment="Top" Background="Transparent" MouseLeftButtonUp="labelKeystrokeDescription_Click" Grid.ColumnSpan="3"></Label>
+
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </Grid>
+        <Grid Margin="17,12,67,281" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="316*" />
+                <ColumnDefinition Width="111*" />
+            </Grid.ColumnDefinitions>
+            <Label Content="Pointables" FontFamily="Segoe" FontSize="32" Height="50" Margin="12,0,3.04,0" Name="label4" VerticalAlignment="Top" />
+            <Button Click="buttonAddPointable_Click" Content="Add" Grid.Column="1" Height="25" HorizontalAlignment="Left" Margin="9,57,0,0" Name="buttonAddPointable" VerticalAlignment="Top" Width="90" />
+            <ListBox Margin="12,57,3.04,0"  Name="listBoxPointables" ItemsSource="{Binding}" FontSize="16" SelectionChanged="listBoxPointables_SelectionChanged" Height="241" VerticalAlignment="Top" />
+            <Button Content="Edit" Grid.Column="1" Height="25" HorizontalAlignment="Left" Margin="9,88,0,0" Name="buttonEditPointable" VerticalAlignment="Top" Width="90" Click="buttonEditPointable_Click" />
+            <Button Content="Delete" Grid.Column="1" Margin="8.96,151,11,134" Name="buttonDeletePointable" Click="buttonDeletePointable_Click" />
+            <Button Margin="8.96,119,11,0" Name="buttonCalibrate" Grid.Column="1" Click="buttonCalibrate_Click" Height="25" VerticalAlignment="Top">Calibrate</Button>
+            <Button Height="25" Margin="8.96,0,11,102" Name="buttonDisable" VerticalAlignment="Bottom" Grid.Column="1" Click="buttonDisable_Click">Disable</Button>
+        </Grid>
+        <Label FontFamily="Segoe" FontSize="20" Margin="0,278,77.96,293" Name="labelPointableCount" Grid.Column="1" HorizontalAlignment="Right" Width="90" HorizontalContentAlignment="Center">21/24</Label>
+    </Grid>
+</Window>

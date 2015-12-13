@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PointableObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <description>Default</description>
+  <type>Application</type>
+  <iconPath>application.png</iconPath>
+  <iconFromResource>false</iconFromResource>
+  <position>
+    <X>-14.391895102931827</X>
+    <Y>226.41519592127818</Y>
+    <Z>-283.73035472129254</Z>
+    <Magnitude>363.28209669483448</Magnitude>
+  </position>
+  <windowTitle />
+  <windowClass>Not Attached</windowClass>
+  <calibrated>false</calibrated>
+  <locked>true</locked>
+  <isEnabled>true</isEnabled>
+  <actions>
+    <Action>
+      <description>Open Program</description>
+      <iconPath>application_new.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LeftCtrl</string>
+        <string>N</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>ok4AAA==</keys>
+      <keysKeyCode>
+        <string>162</string>
+        <string>78</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Show Desktop</description>
+      <iconPath>desktop.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LWin</string>
+        <string>D</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>W0QAAA==</keys>
+      <keysKeyCode>
+        <string>91</string>
+        <string>68</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Close Program</description>
+      <iconPath>application_close.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>Alt</string>
+        <string>F4</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>EnMAAA==</keys>
+      <keysKeyCode>
+        <string>18</string>
+        <string>115</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>AppStore Back</description>
+      <iconPath>go_previous.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>Back</string>
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>CAAAAA==</keys>
+      <keysKeyCode>
+        <string>8</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+  </actions>
+</PointableObject>

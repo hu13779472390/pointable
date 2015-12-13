@@ -1,0 +1,36 @@
+C:\Documents\# Smart Home\LeapProject\LeapProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents\# Smart Home\LeapProject\LeapProject\obj\Debug\LeapProject.Properties.Resources.resources
+C:\Documents\# Smart Home\LeapProject\LeapProject\obj\Debug\LeapProject.csproj.GenerateResource.Cache
+C:\Documents\# Smart Home\LeapProject\LeapProject\bin\Debug\LeapProject.exe
+C:\Documents\# Smart Home\LeapProject\LeapProject\bin\Debug\LeapProject.pdb
+C:\Documents\# Smart Home\LeapProject\LeapProject\bin\Debug\LeapCSharp.NET3.5.dll
+C:\Documents\# Smart Home\LeapProject\LeapProject\obj\Debug\LeapProject.exe
+C:\Documents\# Smart Home\LeapProject\LeapProject\obj\Debug\LeapProject.pdb
+C:\Documents\# Smart Home\LeapProject\LeapProject\obj\Debug\LeapProject.Form1.resources
+C:\Documents\# Smart Home\LeapProject\LeapProject\obj\Debug\LeapProject.FormControl.resources
+C:\Documents\# Smart Home\LeapProject\LeapProject\bin\Debug\CoreAudioApi.dll
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\bin\Debug\LeapProject.exe
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\bin\Debug\LeapProject.pdb
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\bin\Debug\CoreAudioApi.dll
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\bin\Debug\IconLib.dll
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\bin\Debug\LeapCSharp.NET3.5.dll
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\MainWindow.baml
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\WindowApplicationEdit.baml
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\WindowNewKeystrokes.baml
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\WindowPointableEditor.baml
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\MainWindow.g.cs
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\WindowApplicationEdit.g.cs
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\WindowNewKeystrokes.g.cs
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\WindowPointableEditor.g.cs
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\LeapProject_Content.g.cs
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\LeapProject_MarkupCompile.cache
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\LeapProject.g.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\LeapProject.Form1.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\LeapProject.FormControl.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\LeapProject.FormControlGroup.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\LeapProject.Properties.Resources.resources
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\LeapProject.csproj.GenerateResource.Cache
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\LeapProject.exe
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\LeapProject.pdb
+C:\Documents\# Smart Home\LeapProject - VS 2008\LeapProject\obj\Debug\LeapProject.FormCalibrate.resources

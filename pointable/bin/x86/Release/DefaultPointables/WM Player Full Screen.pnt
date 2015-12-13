@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PointableObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <description>WM Player Full Screen</description>
+  <type>Application</type>
+  <iconPath>icon_wmplayer.exe.png</iconPath>
+  <iconFromResource>false</iconFromResource>
+  <position>
+    <X>1</X>
+    <Y>1</Y>
+    <Z>1</Z>
+    <Magnitude>1.7320508075688772</Magnitude>
+  </position>
+  <windowTitle>WMPTransition</windowTitle>
+  <windowClass>WMPTransition</windowClass>
+  <calibrated>false</calibrated>
+  <locked>false</locked>
+  <isEnabled>true</isEnabled>
+  <actions>
+    <Action>
+      <description>WM Player Exit Full Screen</description>
+      <iconPath>fullscreen_exit.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>Escape</string>
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>GwAAAA==</keys>
+      <keysKeyCode>
+        <string>27</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>WMPlayer Next</description>
+      <iconPath>go_next.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LeftCtrl</string>
+        <string>F</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>okYAAA==</keys>
+      <keysKeyCode>
+        <string>162</string>
+        <string>70</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>WM Player Pause/Play</description>
+      <iconPath>media_pause.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LeftCtrl</string>
+        <string>P</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>olAAAA==</keys>
+      <keysKeyCode>
+        <string>162</string>
+        <string>80</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>WMPlayer Previous</description>
+      <iconPath>go_previous.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LeftCtrl</string>
+        <string>B</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>okIAAA==</keys>
+      <keysKeyCode>
+        <string>162</string>
+        <string>66</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+  </actions>
+</PointableObject>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PointableObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <description>Start Screen App</description>
+  <type>Application</type>
+  <iconPath>pointable_generic.png</iconPath>
+  <iconFromResource>false</iconFromResource>
+  <position>
+    <X>1</X>
+    <Y>1</Y>
+    <Z>1</Z>
+    <Magnitude>1.7320508075688772</Magnitude>
+  </position>
+  <windowTitle>Start Screen App</windowTitle>
+  <windowClass>Windows.UI.Core.CoreWindow</windowClass>
+  <calibrated>false</calibrated>
+  <locked>true</locked>
+  <isEnabled>true</isEnabled>
+  <actions>
+    <Action>
+      <description>Go Back To Desktop</description>
+      <iconPath>desktop.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LWin</string>
+        <string>D</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>W0QAAA==</keys>
+      <keysKeyCode>
+        <string>91</string>
+        <string>68</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Start Screen Switch</description>
+      <iconPath>screen_right.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LWin</string>
+        <string>OemPeriod</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>W74AAA==</keys>
+      <keysKeyCode>
+        <string>91</string>
+        <string>190</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Go Back To Start Screen</description>
+      <iconPath>start_screen.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LWin</string>
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>WwAAAA==</keys>
+      <keysKeyCode>
+        <string>91</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Back</description>
+      <iconPath>go_previous.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>Back</string>
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>CAAAAA==</keys>
+      <keysKeyCode>
+        <string>8</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+  </actions>
+</PointableObject>

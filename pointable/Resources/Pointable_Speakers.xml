@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PointableObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <description>Speakers</description>
+  <type>Physical</type>
+  <iconPath>sound.png</iconPath>
+  <iconFromResource>true</iconFromResource>
+  <position>
+    <X>150</X>
+    <Y>100</Y>
+    <Z>-250</Z>
+    <Magnitude>327.64479609343266</Magnitude>
+  </position>
+  <windowTitle />
+  <windowClass />
+  <calibrated>true</calibrated>
+  <locked>true</locked>
+  <isEnabled>true</isEnabled>
+  <actions>
+    <Action>
+      <description>Increase Volume</description>
+      <iconPath>sound_increase.png</iconPath>
+      <iconFromResource>true</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string />
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>AAAAAA==</keys>
+      <keysKeyCode>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Pause Track</description>
+      <iconPath>sound_pause.png</iconPath>
+      <iconFromResource>true</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string />
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>AAAAAA==</keys>
+      <keysKeyCode>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Decrease Volume</description>
+      <iconPath>sound_decrease.png</iconPath>
+      <iconFromResource>true</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string />
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>AAAAAA==</keys>
+      <keysKeyCode>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Mute</description>
+      <iconPath>sound_mute.png</iconPath>
+      <iconFromResource>true</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>F5</string>
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>AAAAAA==</keys>
+      <keysKeyCode>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+  </actions>
+</PointableObject>

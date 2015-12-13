@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PointableObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <description>Productivity Pointable</description>
+  <type>Physical</type>
+  <iconPath>stationery.png</iconPath>
+  <iconFromResource>false</iconFromResource>
+  <position>
+    <X>-250</X>
+    <Y>250</Y>
+    <Z>-250</Z>
+    <Magnitude>367.9546636371125</Magnitude>
+  </position>
+  <windowTitle />
+  <windowClass />
+  <calibrated>true</calibrated>
+  <locked>false</locked>
+  <isEnabled>true</isEnabled>
+  <actions>
+    <Action>
+      <description>Open Google Drive</description>
+      <iconPath>folder_drive.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>LaunchApplication</actionType>
+      <keyDescription>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </keyDescription>
+      <keys>AAAAAA==</keys>
+      <keysKeyCode>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath>http://drive.google.com</applicationPath>
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Launch Word</description>
+      <iconPath>office_word.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>LaunchApplication</actionType>
+      <keyDescription>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </keyDescription>
+      <keys>AAAAAA==</keys>
+      <keysKeyCode>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath>winword</applicationPath>
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Launch PowerPoint</description>
+      <iconPath>office_ppt.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>LaunchApplication</actionType>
+      <keyDescription>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </keyDescription>
+      <keys>AAAAAA==</keys>
+      <keysKeyCode>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath>powerpnt</applicationPath>
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Launch Excel</description>
+      <iconPath>office_excel.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>LaunchApplication</actionType>
+      <keyDescription>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </keyDescription>
+      <keys>AAAAAA==</keys>
+      <keysKeyCode>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath>excel</applicationPath>
+      <applicationArgs />
+    </Action>
+  </actions>
+</PointableObject>

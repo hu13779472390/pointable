@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PointableObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <description>Adobe Reader</description>
+  <type>Application</type>
+  <iconPath>adobe_reader.png</iconPath>
+  <iconFromResource>false</iconFromResource>
+  <position>
+    <X>1</X>
+    <Y>1</Y>
+    <Z>1</Z>
+    <Magnitude>1.7320508075688772</Magnitude>
+  </position>
+  <windowTitle>Adobe Reader</windowTitle>
+  <windowClass>AcrobatSDIWindow</windowClass>
+  <calibrated>false</calibrated>
+  <locked>false</locked>
+  <isEnabled>true</isEnabled>
+  <actions>
+    <Action>
+      <description>Adobe </description>
+      <iconPath>fullscreen.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LeftCtrl</string>
+        <string>H</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>okgAAA==</keys>
+      <keysKeyCode>
+        <string>162</string>
+        <string>72</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Adobe Next</description>
+      <iconPath>go_next.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>Right</string>
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>JwAAAA==</keys>
+      <keysKeyCode>
+        <string>39</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Adobe Close</description>
+      <iconPath>application_close.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>LeftCtrl</string>
+        <string>Q</string>
+        <string />
+        <string />
+      </keyDescription>
+      <keys>olEAAA==</keys>
+      <keysKeyCode>
+        <string>162</string>
+        <string>81</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+    <Action>
+      <description>Adobe Previous</description>
+      <iconPath>go_previous.png</iconPath>
+      <iconFromResource>false</iconFromResource>
+      <actionType>Keystroke</actionType>
+      <keyDescription>
+        <string>Left</string>
+        <string />
+        <string />
+        <string />
+      </keyDescription>
+      <keys>JQAAAA==</keys>
+      <keysKeyCode>
+        <string>37</string>
+        <string>0</string>
+        <string>0</string>
+        <string>0</string>
+      </keysKeyCode>
+      <applicationPath />
+      <applicationArgs />
+    </Action>
+  </actions>
+</PointableObject>
